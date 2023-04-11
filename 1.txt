@@ -1,0 +1,7 @@
+CREATE TABLE thecamp_market(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    product_name varchar (50),
+    product_value varchar (50),
+    product_quantity int,
+    recored_date DATE
+);

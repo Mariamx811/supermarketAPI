@@ -1,0 +1,8 @@
+INSERT INTO thecamp_market (id,product_name,product_value,product_quantity,recored_date)
+VALUES(1,"Pepsi",5,20, "2022/3/3");
+
+INSERT INTO thecamp_market (id,product_name,product_value,product_quantity,recored_date)
+VALUES (2,"Dove", 50, 3, "2023/2/1");
+
+INSERT INTO thecamp_market (id,product_name,product_value,product_quantity,recored_date)
+VALUES (3,"Cheetos", 10, 3, "2022/5/2");

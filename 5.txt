@@ -1,0 +1,4 @@
+SELECT  cm.id, cm.product_name, cm.product_value,cm.product_quantity,thecamp_market_sells.sells_quantity ,
+cm.recored_date
+FROM thecamp_market AS cm
+INNER JOIN thecamp_market_sells ON cm.id = thecamp_market_sells.product_id
